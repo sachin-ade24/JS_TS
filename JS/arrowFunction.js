@@ -101,7 +101,6 @@ true
 */
 
 //utilize rest parameter in arrow function:
-
 let printDetails = (...details) => {
     console.log(details);
     console.log(details.length);
@@ -118,5 +117,13 @@ console.log(s1);
 [ 'Sachi', 'Prince', 'Kalpana', 'Sachin' ]
 4
 1
+*/
+
+let restDevices = (...devices) => {
+    console.log(devices);
+}
+restDevices(['iPhone', 'Macbook'], ['Samsung Galaxy Tab', 'Samsung Watch']);
+/*
+[ [ 'iPhone', 'Macbook' ], [ 'Samsung Galaxy Tab', 'Samsung Watch' ] ]
 */
 
