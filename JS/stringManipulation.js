@@ -363,3 +363,16 @@ let char = fruit[3];
 console.log(char);//g
 
 console.log('======================================================================');
+
+let k = 'Kalpana';
+
+console.log(k.charAt(0) === k.at(0));//true
+console.log(k.at(0) === k[0]);//true
+console.log(k.charAt(0) === k[0]);//true
+
+if(k.charAt(0) == k.at(0) && k.at(0) === k[0] && k.charAt(0) === k[0]){
+    console.log(`I love you ${k}.`);
+} 
+else {
+    console.log('I love you Kalpana...');
+}
