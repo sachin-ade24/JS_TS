@@ -1,0 +1,59 @@
+//This files guides about naming conventions for JS-TS Test Automation files.
+
+✅ Common naming conventions
+    1. camelCase (recommended for most files)
+    helloWorld.ts
+    userService.ts
+    loginHelper.js
+
+    ✔ Most widely used in Node.js / automation projects
+    ✔ Matches JavaScript variable/function style
+
+    2. PascalCase (for classes / components)
+    UserService.ts
+    LoginPage.ts
+    CheckoutPage.ts
+
+    ✔ Used when file exports a class or main object
+    ✔ Common in:
+
+    - Page Object Model (POM)
+    - React components
+
+    3. kebab-case (less common in JS backend, but used sometimes)
+    user-service.ts
+    login-helper.js
+
+    ✔ Popular in frontend projects
+    ✔ Not very common in Node automation setups
+
+🧠 What YOU should follow (based on your work)
+
+    Since you are working on:
+
+    - Automation (Cypress / Playwright)
+    - TypeScript
+    - Node.js
+
+    👉 Use this rule:
+
+    🔹 Utilities / helpers
+    utils.ts
+    dateHelper.ts
+    apiService.ts
+
+    👉 camelCase ✅
+
+    🔹 Page Object Model (very important for you)
+    LoginPage.ts
+    DashboardPage.ts
+    SignupPage.ts
+
+    👉 PascalCase ✅
+
+    🔹 Test files
+    login.spec.ts
+    signup.cy.ts
+
+    👉 lowercase + dots ✅
+
