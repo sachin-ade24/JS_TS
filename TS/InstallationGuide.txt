@@ -6,7 +6,7 @@ Steps:
 3. Check npm version: npm -v (Download NPM: npm install -g npm)
 4. Creat a package.json file: npm init -y --> creates package.json
 5. TypeScript compiler initialization: tsc --init
-6. Install ts-node: npm install -g ts-node typescript --> Run file e.g.: ts-node yourFileName.ts 
+6. Install ts-node (optional): npm install -g ts-node typescript --> Run file e.g.: ts-node yourFileName.ts 
 7. Install nodemon (optional): npm install -g nodemon --> Run file e.g.: nodemon yourFileName.ts 
 8. Install tsx i.e. typescript executor: npm install -g tsx --> Run file e.g.: tsx yourFileName.ts
    (tsx is optional but faster than ts-node and nodemon)
@@ -14,3 +14,4 @@ Steps:
    then run yarn add -D typescript ts-node @types/node
    Run file e.g.: yarn ts-node yourFileName.ts
 10. Install code-runner (optional) from extensions (ctrl+shift+X)
+11. The file can be executed like this: node yourFileName.ts
