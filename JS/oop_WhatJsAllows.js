@@ -10,6 +10,7 @@ JS allows foolwing OOP principles:
 6. default class (only one default class)
 7. constructor (only one allowed)
 
+==============================================
 
 JS does NOT allow:
 
@@ -17,5 +18,4 @@ JS does NOT allow:
 2. interface
 3. method overloading
 4. constructor overloading
-
 */
