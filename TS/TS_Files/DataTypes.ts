@@ -159,3 +159,5 @@ orderId = '1234';
 type statusCodeType = string | number;
 let okStatusCode: statusCodeType = 200;
 okStatusCode = "200 OK";
+
+export {};//--> This tells TS that: This file is a module, not a global script.

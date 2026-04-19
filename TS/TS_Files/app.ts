@@ -11,3 +11,5 @@ function testing(browser: string): string{
 }
 let result: string = testing('CHROME');
 console.log(result);//chrome
+
+export {};//--> This tells TS that: This file is a module, not a global script.
