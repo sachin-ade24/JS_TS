@@ -84,7 +84,7 @@ console.log('===================================================================
 
 
 /*
-pop():
+3. pop():
     (method) Array<number>.pop(): number | undefined
 
     Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
@@ -114,7 +114,7 @@ console.log('===================================================================
 
 
 /*
-shift():
+4. shift():
    (method) Array<number>.shift(): number | undefined
 
     Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
@@ -144,7 +144,7 @@ console.log('===================================================================
 
 
 /*
-splice();
+5. splice();
     (method) Array<string>.splice(start: number, deleteCount?: number): string[] (+1 overload)
 
     Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
@@ -266,7 +266,7 @@ console.log('===================================================================
 
 
 /*
-indexOf():
+6. indexOf():
     (method) Array<number>.indexOf(searchElement: number, fromIndex?: number | undefined): number
 
     Returns the index of the first occurrence of a value in an array, or -1 if it is not present.
@@ -286,7 +286,7 @@ console.log('===================================================================
 
 
 /*
-lastIndexOf():
+7. lastIndexOf():
     (method) Array<number>.lastIndexOf(searchElement: number, fromIndex?: number | undefined): number
 
     Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
@@ -302,9 +302,9 @@ console.log('===================================================================
 
 
 /*
-length:
-  (property) Array<string>.length: number
-  Gets or sets the length of the array. This is a number one higher than the highest index in the array.
+8. length:
+    (property) Array<string>.length: number
+    Gets or sets the length of the array. This is a number one higher than the highest index in the array.
 */
 /*
 length:
@@ -319,9 +319,9 @@ console.log('===================================================================
 
 
 /*
-toString():
-  (method) Array<string>.toString(): string
-  Returns a string representation of an array.
+9. toString():
+    (method) Array<string>.toString(): string
+    Returns a string representation of an array.
 */
 let newFruitsArr = ["Grapes", "Pineapples"];
 let newFruitsStrArr = newFruitsArr.toString();
@@ -335,16 +335,16 @@ console.log('===================================================================
 
 
 /*
-at():
-  (method) Array<string>.at(index: number): string | undefined
-  Returns the item located at the specified index.
+10. at():
+    (method) Array<string>.at(index: number): string | undefined
+    Returns the item located at the specified index.
 
-  @param index — The zero-based index of the desired code unit. A negative index will count back from the last item.
+    @param index — The zero-based index of the desired code unit. A negative index will count back from the last item.
 */
 /*
 at():
-  The at() method returns an indexed element from an array.
-  The at() method returns the same as [].
+    The at() method returns an indexed element from an array.
+    The at() method returns the same as [].
 */
 let vehicles = ['Truck', 'Bus', 'Container'];
 console.log(vehicles.at(0));//Truck
@@ -365,17 +365,17 @@ console.log('===================================================================
 
 
 /*
-join():
-  (method) Array<string>.join(separator?: string | undefined): string
-  Adds all the elements of an array into a string, separated by the specified separator string.
+11. join():
+    (method) Array<string>.join(separator?: string | undefined): string
+    Adds all the elements of an array into a string, separated by the specified separator string.
 
-  @param separator — A string used to separate one element of the array from the next in the resulting string. 
-  If omitted, the array elements are separated with a comma.
+    @param separator — A string used to separate one element of the array from the next in the resulting string. 
+    If omitted, the array elements are separated with a comma.
 */
 /*
 join():
-  The join() method also joins all array elements into a string.
-  It behaves just like toString(), but in addition you can specify the separator.
+    The join() method also joins all array elements into a string.
+    It behaves just like toString(), but in addition you can specify the separator.
 */
 let cars = ["Defender", "Discovery", "Range Rover"];
 let joinCars = cars.join(' * ');
@@ -396,11 +396,11 @@ console.log('===================================================================
 
 
 /*
-concat():
-  (method) Array<string>.concat(...items: ConcatArray<string>[]): string[] (+1 overload)
-  Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+12. concat():
+    (method) Array<string>.concat(...items: ConcatArray<string>[]): string[] (+1 overload)
+    Combines two or more arrays. This method returns a new array without modifying any existing arrays.
 
-  @param items — Additional arrays and/or items to add to the end of the array.
+    @param items — Additional arrays and/or items to add to the end of the array.
 */
 /*
 concat():
@@ -416,30 +416,30 @@ console.log('===================================================================
 
 
 /*
-copyWithin():
-  The copyWithin() method copies array elements to another position in an array
+13. copyWithin():
+    The copyWithin() method copies array elements to another position in an array
 */
 /*
 Important:
-  The copyWithin() method overwrites the existing values.
+    The copyWithin() method overwrites the existing values.
 
-  The copyWithin() method does not add items to the array.
+    The copyWithin() method does not add items to the array.
 
-  The copyWithin() method does not change the length of the array.
+    The copyWithin() method does not change the length of the array.
 */
 let gamma = ['Aa', 'Bb', 'Cc', 'Dd'];
 /*
 copyWithin():
-  method) Array<string>.copyWithin(target: number, start: number, end?: number | undefined): string[]
-  Returns the this object after copying a section of the array identified by start and end to the same array starting at position target
+    method) Array<string>.copyWithin(target: number, start: number, end?: number | undefined): string[]
+    Returns the this object after copying a section of the array identified by start and end to the same array starting at position target
 
-  @param target
-  If target is negative, it is treated as length+target where length is the length of the array.
+    @param target
+    If target is negative, it is treated as length+target where length is the length of the array.
 
-  @param start
-  If start is negative, it is treated as length+start. If end is negative, it is treated as length+end.
+    @param start
+    If start is negative, it is treated as length+start. If end is negative, it is treated as length+end.
 
-  @param end — If not specified, length of the this object is used as its default value.
+    @param end — If not specified, length of the this object is used as its default value.
 */
 gamma.copyWithin(3, 0)
 console.log(gamma);
@@ -467,19 +467,19 @@ console.log('===================================================================
 
 
 /*
-Flattening an Array:
-  Flattening an array is the process of reducing the dimensionality of an array.
+14. Flattening an Array:
+    Flattening an array is the process of reducing the dimensionality of an array.
 
-  Flattening is useful when you want to convert a multi-dimensional array into a one-dimensional array.
+    Flattening is useful when you want to convert a multi-dimensional array into a one-dimensional array.
 */
 /*
 flat():
-  The flat() method creates a new array with sub-array elements concatenated to a specified depth.
+    The flat() method creates a new array with sub-array elements concatenated to a specified depth.
 
-  (method) Array<number[]>.flat<number[][], 1>(this: number[][], depth?: 1 | undefined): number[]
-  Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+    (method) Array<number[]>.flat<number[][], 1>(this: number[][], depth?: 1 | undefined): number[]
+    Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
-  @param depth — The maximum recursion depth
+    @param depth — The maximum recursion depth
 */
 let ar = [[1,2], [4,5], [7,9]];
 let flattenedAr = ar.flat();
@@ -490,20 +490,20 @@ console.log('===================================================================
 
 
 /*
-flatMap():
-  (method) Array<number>.flatMap<number, undefined>(callback: (this: undefined, value: number, index: number, array: number[]) => number | readonly number[], thisArg?: undefined): number[]
-  Calls a defined callback function on each element of an array. Then, flattens the result into a new array. 
-  This is identical to a map followed by flat with depth 1.
+15. flatMap():
+    (method) Array<number>.flatMap<number, undefined>(callback: (this: undefined, value: number, index: number, array: number[]) => number | readonly number[], thisArg?: undefined): number[]
+    Calls a defined callback function on each element of an array. Then, flattens the result into a new array. 
+    This is identical to a map followed by flat with depth 1.
 
-  @param callback
-  A function that accepts up to three arguments. The flatMap method calls the callback function one time for each element in the array.
+    @param callback
+    A function that accepts up to three arguments. The flatMap method calls the callback function one time for each element in the array.
 
-  @param thisArg
-  An object to which the this keyword can refer in the callback function. If thisArg is omitted, undefined is used as the this value.
+    @param thisArg
+    An object to which the this keyword can refer in the callback function. If thisArg is omitted, undefined is used as the this value.
 */
 /*
 flatMap():
-  The flatMap() method first maps all elements of an array and then creates a new array by flattening the array.
+    The flatMap() method first maps all elements of an array and then creates a new array by flattening the array.
 */
 const myAr = [1, 2, 3, 4, 5, 6];
 const flatMappedArr = myAr.flatMap((n)=>[n, n*10]);
@@ -521,9 +521,9 @@ console.log('===================================================================
 
 
 /*
-toSpliced():
-  The difference between the new toSpliced() method and the old splice() method is that the new method creates a new array, 
-  keeping the original array unchanged, while the old method altered the original array.
+16. toSpliced():
+    The difference between the new toSpliced() method and the old splice() method is that the new method creates a new array, 
+    keeping the original array unchanged, while the old method altered the original array.
 */
 const months = ["Jan", "Feb", "Mar", "Apr"];
 const spliced = months.toSpliced(2, 1, "Dec");
@@ -534,14 +534,14 @@ console.log('===================================================================
 
 
 /*
-slice():
-  The slice() method slices out a piece of an array into a new array.
+17. slice():
+    The slice() method slices out a piece of an array into a new array.
 */
 /*
 Important: 
-  The slice() method creates a new array.
+    The slice() method creates a new array.
 
-  The slice() method does not remove any elements from the source array.
+    The slice() method does not remove any elements from the source array.
 */
 const frts = ["Banana", "Orange", "Lemon", "Apple", "Mango"];//node arrayMethods.js
 const newFrts1 = frts.slice(1);
@@ -555,7 +555,8 @@ console.log(newFrts3);//[ 'Banana', 'Orange', 'Lemon' ]
 console.log('======================================================================');
 
 /*
-Using delete() leaves undefined holes in the array.
+18. delete:
+    Using delete() leaves undefined holes in the array.
 */
 const devices = ['TV', 'Mobile Phone', 'Telephone', 'Computer'];
 delete devices[2];
