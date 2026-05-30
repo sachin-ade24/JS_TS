@@ -27,3 +27,19 @@ console.log(copiedUser);
 /*
 { name: 'Sachin', address: { city: 'Mumbai' } }
 */
+
+//======================================================
+
+//console.log(...user);
+/*
+TypeError: Spread syntax requires ...iterable[Symbol.iterator] to be a function
+*/
+
+// console.log([...user]);
+/*
+TypeError: user is not iterable
+*/
+
+//======================================================
+
+

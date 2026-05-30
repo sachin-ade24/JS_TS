@@ -66,6 +66,11 @@ let objectArr = [
   {name: "Advik", age: 4, class: "Nursery"}
 ];
 
+console.log(objectArr[0]);
+for(let obj of objectArr){
+    console.log(obj);
+}
+
 const f1 = objectArr.filter((obj)=> obj['age'] === 4);
 console.log(f1);
 /*

@@ -33,7 +33,7 @@ console.log('DONE');
 
         An asynchronous callback runs later.
 
-        JavaScript does NOT wait for it immediately.
+        JavaScript does NOT execute it immediately.
 
         Instead, it schedules the callback to run after:
 

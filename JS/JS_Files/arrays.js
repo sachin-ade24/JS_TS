@@ -163,12 +163,14 @@ console.log([...k]);//[ 0, 1, 2, 3 ]
 let v = ay1.values();
 console.log([...v]);//[ 10, 20, 30, 40 ]
 
+/*
 for(let i=0; i<ay1.length; i++){
   for(let j=1; j<ay1.length; j++){
     let c = 0;
-    if(ay1[i]==ay[j]){
+    if(ay1[i]==ay1[j]){
       c++;
     };
   }
   console.log(`${ay1[i]}: ${c}`);
 }
+*/

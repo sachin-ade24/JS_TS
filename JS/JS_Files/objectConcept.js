@@ -162,3 +162,22 @@ city LA
 isActive true
 address { flat: 101, zip: 432121 }
 */
+
+console.log();
+
+Object.values(user).forEach((value)=>{
+    console.log(value);
+});
+
+console.log();
+
+
+
+
+let userObj = { name: 'Tom', age: 30, city: 'Pune' };
+console.log(userObj.name);//Tom
+console.log(userObj['age']);//30
+let {name, age, city} = userObj;
+console.log(name);//Tom
+console.log(age);//30
+console.log(city);//Pune

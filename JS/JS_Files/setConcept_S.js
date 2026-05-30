@@ -150,3 +150,10 @@ let ns = new Set(["Aa", "Bb", "Cc", "Dd", "Ee"]);
 for(let [k,v] of ns.entries()){
     console.log(`${k}: ${v}`);
 }
+
+
+const setS1 = new Set(Array.of(10, 4, 7, 5, 2, 10, 2));
+console.log(setS1);
+
+const s1Arr = [...setS1];
+console.log(s1Arr); 

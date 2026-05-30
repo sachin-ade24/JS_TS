@@ -110,3 +110,10 @@ console.log(reducedAddress.trim());//500 Rainbow Apartments Pune India
 let allInOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let result = allInOne.filter(f => f%2 === 0).map(m => Math.pow(m, 2)).reduce((acc, n) => acc + n, 0);
 console.log(result);//220
+
+const ob = allInOne.reduce((acc, e)=>{
+    acc[e] = (acc[e] || 0) + 1;
+    return acc;
+}, {});
+
+console.log(ob);

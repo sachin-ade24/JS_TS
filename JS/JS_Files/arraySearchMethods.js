@@ -64,7 +64,7 @@ console.log('===================================================================
 
 //6. findLast():
 /*
-    method that will start from the end of an array and return the value of the first element that satisfies a condition.
+    method that will start from the end of an array and return the value of the last element that satisfies a condition.
 */
 const evenNumbs = [0, 2, 10, 20, 40, 50];
 const findLastEvenNums = evenNumbs.findLast((lastNum) => lastNum % 2 == 0 && lastNum >= 20);

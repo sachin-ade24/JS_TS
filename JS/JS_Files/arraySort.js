@@ -11,6 +11,10 @@ console.log(arr1);
 /*
 [ 'Kalpana', 'Prince', 'Sachi', 'Sachin' ]
 */
+let ay = [24, 12, 18, 16];
+ay.sort();
+console.log(ay);
+console.log(ay.toReversed());
 
 
 console.log('======================================================================');
@@ -21,7 +25,7 @@ console.log('===================================================================
 (method) Array<number>.reverse(): number[]
 Reverses the elements in an array in place. This method mutates the array and returns a reference to the same array.
 */
-let arr2 = [1, 2, 3, 4, 5];
+let arr2 = [1, 2, 3, 40, 5];
 arr2.reverse();
 console.log(arr2);//[ 5, 4, 3, 2, 1 ]
 
