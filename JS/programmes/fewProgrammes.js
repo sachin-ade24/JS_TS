@@ -5,7 +5,7 @@
 function getCharFreq(strg){
 	let freq = {};
     for(let char of strg){
-    	freq[char] = (freq[char] || 0) + 1;
+        freq[char] = (freq[char] || 0) + 1;
     }
     return freq;
 }
@@ -15,15 +15,15 @@ console.log(getCharFreq(str));
 
 //2. Reverse a string
 function reverseTheString(str){
-  return str.split("").reverse().join("");
+    return str.split("").reverse().join("");
 }
 console.log(reverseTheString("Sachin Ade."))
 
 
 //3. Write a Program to check whether a string is a palindrome string.
 function isPalindrome(str){
-  const reversedString = reverseTheString(str);
-  return str == reversedString;
+    const reversedString = reverseTheString(str);
+    return str == reversedString;
 }
 console.log(isPalindrome("abba"));
 
